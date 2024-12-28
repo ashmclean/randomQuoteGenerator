@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", serif;
+}
+
+body {
+    background-color: #DFDBE5;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%237a60a3' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.fa-quote-left {
+    font-size: 80px;
+    color:#E95793;
+}
+
+.quote {
+    color: #610C9F;
+    text-align: center;
+    font-style: italic;
+}
+
+.author {
+    color: #E95793;
+    font-size: 20px;
+}
+
+hr {
+    margin: 10px 0;
+    width: 60%;
+    border: 1px solid #364ba788;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.twitter-share-button {
+    text-decoration: none;
+    background-color: #610C9F;
+    color: #E95793;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.new {
+    border: none;
+    background-color: #610C9F;
+    color: #E95793;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:focus {
+    outline: none;
+}
